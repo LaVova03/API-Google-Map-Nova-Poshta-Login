@@ -1,0 +1,46 @@
+.register-lable {
+    margin: 0 0 0 10px;
+}
+
+.parent-register {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.input-register {
+    width: 220px;
+}
+
+.main-image {
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.second-image {
+    position: absolute;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.wrap:hover {
+    border: 2px solid rgb(13, 219, 255);
+    background-color: #e0e0e0;
+}
+
+img{
+    width: 500px;
+}
+
+.main-image,
+.second-image{
+    transition: 1000ms;
+    -webkit-transition: 1000ms;
+    -moz-transition: 1000ms;
+    -ms-transition: 1000ms;
+    -o-transition: 1000ms;
+}

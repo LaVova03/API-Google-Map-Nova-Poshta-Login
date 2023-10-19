@@ -1,0 +1,20 @@
+#main {
+    padding: 0 20px;
+}
+
+.register-h1 {
+    color: gray;
+    margin: 0 0 0 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.grid {
+    margin: 5px;
+}
